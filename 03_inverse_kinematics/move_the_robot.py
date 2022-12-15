@@ -5,7 +5,7 @@ from inverse_kinematics import position_to_dof
 
 ## Conectarse al robot
 
-r = RobotClient(address="localhost")  # Recuerda usar una dirección válida
+r = RobotClient(address="192.168.0.16")  # Recuerda usar una dirección válida
 r.connect()
 r.home()    # Revisa el archivo client.py para que veas qué hace esta función
 
